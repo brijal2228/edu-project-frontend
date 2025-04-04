@@ -5,11 +5,7 @@ const Profile = () => {
     <div className="profile-container">
       <div className="profile-header d-flex align-items-center justify-content-between">
         <div className="profile-info">
-          <img
-            src="./proflie.png"
-            alt="Profile"
-            className="profile-pic"
-          />
+          <img src="./proflie.png"alt="Profile"className="profile-pic"/>
           <div className="details">
             <h2>Shaikh Afrin</h2>
             <p>shaikhafrin0711@gmail.com</p>

@@ -232,6 +232,8 @@ h5 {
 
 .profile-stats {
   margin: 20px 0;
+  background-color: whitesmoke;
+  box-shadow: #f8f9fa;
 }
 
 .profile-tabs .tab {
