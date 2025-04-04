@@ -45,11 +45,7 @@ const Profile = () => {
       </div>
       <div className="listings">
         <div className="listing-item d-flex align-items-center">
-          <img
-            src="item-placeholder.jpg"
-            alt="Item"
-            className="listing-pic"
-          />
+          <img src="item-placeholder.jpg" alt="Item" className="listing-pic"/>
           <div className="listing-details">
             <h4>Item Name</h4>
             <p>$99.99</p>
