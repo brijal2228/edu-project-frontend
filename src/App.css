@@ -97,7 +97,7 @@ body {
 }
 
 .feature-card:hover {
-  background-color: #98dff1;
+  background-color: #98d6f1;
   transform: translateY(-5px);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }

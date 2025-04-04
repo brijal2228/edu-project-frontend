@@ -1,14 +1,22 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import { text } from 'stream/consumers';
 
-export default function Navbar(
-) {
+export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white 1875rem">
+    <nav
+      className="navbar navbar-expand-lg navbar-light"
+      style={{
+        backgroundColor: 'white',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+        padding: '1rem 2rem',
+      }}
+    >
       <div className="container-fluid">
-      <img src="logo eduexchange.jpg"  alt="logo" style={{ width: "100px", height: "55px" }} 
-/>
+        <img
+          src="logo eduexchange.jpg"
+          alt="logo"
+          style={{ width: '120px', height: '60px', marginRight: '1rem' }}
+        />
 
         {/* Toggle Button for Mobile */}
         <button
@@ -25,21 +33,61 @@ export default function Navbar(
 
         {/* Collapsible Menu */}
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto" style={{ fontSize: '1.1rem', fontWeight: '500' }}>
             <li className="nav-item">
-              <a className="nav-link active text-secondary" href="/">Home</a>
+              <a
+                className="nav-link active"
+                href="/"
+                style={{ color: '#343a40', transition: 'color 0.3s' }}
+                onMouseEnter={(e) => ((e.target as HTMLAnchorElement).style.color = '#007bff')}
+                onMouseLeave={(e) => ((e.target as HTMLAnchorElement).style.color = '#343a40')}
+              >
+                Home
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary" href="/books">Books</a>
+              <a
+                className="nav-link"
+                href="/books"
+                style={{ color: '#343a40', transition: 'color 0.3s' }}
+                onMouseEnter={(e) => ((e.target as HTMLAnchorElement).style.color = '#007bff')}
+                onMouseLeave={(e) => ((e.target as HTMLAnchorElement).style.color = '#343a40')}
+              >
+                Books
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary" href="/notes">Notes</a>
+              <a
+                className="nav-link"
+                href="/notes"
+                style={{ color: '#343a40', transition: 'color 0.3s' }}
+                onMouseEnter={(e) => ((e.target as HTMLAnchorElement).style.color = '#007bff')}
+                onMouseLeave={(e) => ((e.target as HTMLAnchorElement).style.color = '#343a40')}
+              >
+                Notes
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary" href="/login">Login</a>
+              <a
+                className="nav-link"
+                href="/login"
+                style={{ color: '#343a40', transition: 'color 0.3s' }}
+                onMouseEnter={(e) => ((e.target as HTMLAnchorElement).style.color = '#007bff')}
+                onMouseLeave={(e) => ((e.target as HTMLAnchorElement).style.color = '#343a40')}
+              >
+                Login
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary" href="/register">Register</a>
+              <a
+                className="nav-link"
+                href="/register"
+                style={{ color: '#343a40', transition: 'color 0.3s' }}
+                onMouseEnter={(e) => ((e.target as HTMLAnchorElement).style.color = '#007bff')}
+                onMouseLeave={(e) => ((e.target as HTMLAnchorElement).style.color = '#343a40')}
+              >
+                Register
+              </a>
             </li>
           </ul>
         </div>
@@ -48,7 +96,7 @@ export default function Navbar(
   );
 }
 
-Navbar.propTypes = {
-  title: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-  Link: PropTypes.string,
-};
+// Navbar.propTypes = {
+//   title: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+//   Link: PropTypes.string,
+// };
