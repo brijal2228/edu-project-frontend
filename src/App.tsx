@@ -22,7 +22,6 @@ const App: React.FC = () => {
       <Navbar />
       <div >
         <RouterProvider router={router} />
-        {/* <UserProfile name={""} email={""} coursesEnrolled={[]}/> */}
       </div>
     </>
   );
