@@ -1,5 +1,4 @@
 import React from "react";
-import "./Profile.css";
 
 const Profile = () => {
   return (
@@ -7,7 +6,7 @@ const Profile = () => {
       <div className="profile-header d-flex align-items-center justify-content-between">
         <div className="profile-info">
           <img
-            src="profile-picture-placeholder.jpg"
+            src="./proflie.png"
             alt="Profile"
             className="profile-pic"
           />
