@@ -200,67 +200,54 @@ h5 {
     font-size: 0.8rem; 
   }
 } */
-.profile-container {
-  margin: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+
+/* Container styling */
+.user-profile {
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-.profile-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+/* Profile Section */
+.profile-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
 }
 
-.profile-pic {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.profile-info .details {
-  display: flex;
-  flex-direction: column;
-}
-
-.profile-buttons .btn {
-  margin-left: 10px;
-}
-
-.profile-stats {
-  margin: 20px 0;
-  background-color: whitesmoke;
-  box-shadow: #f8f9fa;
-}
-
-.profile-tabs .tab {
-  margin: 0 10px;
-  padding: 10px 20px;
-  background-color: #ddd;
-  border: none;
-  cursor: pointer;
-}
-
-.profile-tabs .tab.active {
-  background-color: #007bff;
-  color: #fff;
-}
-
-.listings {
-  margin-top: 20px;
-}
-
-.listing-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.listing-pic {
+.profile-picture {
   width: 60px;
   height: 60px;
-  margin-right: 10px;
+  object-fit: cover;
+  border: 2px solid #6c757d;
+}
+
+.user-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.user-email {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+/* Stats Section */
+.stats .col h6 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.stats .col p {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+/* Tabs Section */
+.content-tabs .nav-tabs .nav-link {
+  color: #6c757d;
+}
+
+.content-tabs .nav-tabs .nav-link.active {
+  color: #495057;
+  border-bottom: 2px solid #0d6efd;
 }
