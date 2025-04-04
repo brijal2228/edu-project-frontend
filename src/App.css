@@ -200,3 +200,65 @@ h5 {
     font-size: 0.8rem; 
   }
 } */
+.profile-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info .details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-buttons .btn {
+  margin-left: 10px;
+}
+
+.profile-stats {
+  margin: 20px 0;
+}
+
+.profile-tabs .tab {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-tabs .tab.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.listings {
+  margin-top: 20px;
+}
+
+.listing-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.listing-pic {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}

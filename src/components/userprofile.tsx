@@ -1,49 +1,64 @@
-import React from 'react';
+import React from "react";
+import "./Profile.css";
 
-interface UserProfileProps {
-  name: string;
-  email: string;
-  bio?: string;
-  profilePictureUrl?: string;
-  coursesEnrolled: string[];
-}
-
-const UserProfile: React.FC<UserProfileProps> = ({
-  name,
-  email,
-  bio,
-  profilePictureUrl,
-  coursesEnrolled,
-}) => {
+const Profile = () => {
   return (
-    <div className="user-profile p-4 border rounded shadow">
-      <div className="profile-header text-center mb-4">
-        <img
-          src={profilePictureUrl || 'https://via.placeholder.com/150'}
-          alt={`${name}'s profile`}
-          className="rounded-circle mb-3"
-          style={{ width: '150px', height: '150px', objectFit: 'cover' }}
-        />
-        <h2 className="font-bold">{name}</h2>
-        <p className="text-muted">{email}</p>
+    <div className="profile-container">
+      <div className="profile-header d-flex align-items-center justify-content-between">
+        <div className="profile-info">
+          <img
+            src="profile-picture-placeholder.jpg"
+            alt="Profile"
+            className="profile-pic"
+          />
+          <div className="details">
+            <h2>Shaikh Afrin</h2>
+            <p>shaikhafrin0711@gmail.com</p>
+          </div>
+        </div>
+        <div className="profile-buttons">
+          <button className="btn btn-primary">Create New Listing</button>
+          <button className="btn btn-secondary">Edit Profile</button>
+        </div>
       </div>
-      {bio && <p className="bio text-center mb-4">{bio}</p>}
-      <div className="courses">
-        <h4 className="mb-3">Enrolled Courses:</h4>
-        {coursesEnrolled.length > 0 ? (
-          <ul className="list-group">
-            {coursesEnrolled.map((course, index) => (
-              <li key={index} className="list-group-item">
-                {course}
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p className="text-muted">No courses enrolled yet.</p>
-        )}
+      <div className="profile-stats row text-center">
+        <div className="col">
+          <h3>12</h3>
+          <p>Active Listings</p>
+        </div>
+        <div className="col">
+          <h3>48</h3>
+          <p>Total Sales</p>
+        </div>
+        <div className="col">
+          <h3>4.8</h3>
+          <p>Rating</p>
+        </div>
+        <div className="col">
+          <h3>156</h3>
+          <p>Reviews</p>
+        </div>
+      </div>
+      <div className="profile-tabs">
+        <button className="tab active">Active Listings</button>
+        <button className="tab">Transactions</button>
+        <button className="tab">Reviews</button>
+      </div>
+      <div className="listings">
+        <div className="listing-item d-flex align-items-center">
+          <img
+            src="item-placeholder.jpg"
+            alt="Item"
+            className="listing-pic"
+          />
+          <div className="listing-details">
+            <h4>Item Name</h4>
+            <p>$99.99</p>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
-export default UserProfile;
+export default Profile;
