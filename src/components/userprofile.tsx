@@ -3,7 +3,7 @@ import React from 'react';
 const UserProfile = () => {
   return (
     <div className="container mt-5">
-      {/* Profile section */}
+      {/* Profile */}
       <div className="card">
         <div className="card-body">
           <div className="d-flex align-items-center">
@@ -43,8 +43,6 @@ const UserProfile = () => {
           </div>
         </div>
       </div>
-
-      {/* Tabs for content */}
       <div className="card mt-3">
         <div className="card-body">
           <ul className="nav nav-tabs">
