@@ -18,7 +18,7 @@ export default function Navbar() {
           style={{ width: '100px', height: '60px', marginRight: '1rem'}}
         />
 
-        {/* Toggle Button for Mobile */}
+        {/* Toggle Button for Mobile view*/}
         <button
           className="navbar-toggler"
           type="button"
