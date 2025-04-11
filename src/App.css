@@ -220,18 +220,8 @@ h5 {
   border: 2px solid #6c757d;
 }
 
-.user-name {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.user-email {
-  font-size: 0.875rem;
-  color: #6c757d;
-}
-
 /* Stats Section */
-.stats .col h6 {
+/* .stats .col h6 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -240,7 +230,7 @@ h5 {
 .stats .col p {
   font-size: 0.875rem;
   color: #6c757d;
-}
+} */
 
 /* Tabs Section */
 .content-tabs .nav-tabs .nav-link {

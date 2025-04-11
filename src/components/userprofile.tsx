@@ -7,20 +7,14 @@ const UserProfile = () => {
       <div className="card">
         <div className="card-body">
           <div className="d-flex align-items-center">
-            <img
-              src="profile-picture-url"
-              alt="Profile"
-              className="rounded-circle"
-              width="50"
-              height="50"
-            />
+            <img src="profile.jpg" alt="Profile" className="rounded-circle" width="50" height="50px"/>
             <div className="ms-3">
               <h5 className="card-title">Your Name</h5>
               <p className="card-text">your-email@example.com</p>
             </div>
           </div>
-          <div className="mt-3">
-            <button className="btn btn-primary me-2">Create New Listing</button>
+          <div className="mt-3 d-flex justify-content-end">
+            <button className="btn btn-primary mr-2">Create New Listing</button>
             <button className="btn btn-secondary">Edit Profile</button>
           </div>
           <div className="mt-3 d-flex justify-content-between">
@@ -58,17 +52,11 @@ const UserProfile = () => {
           </ul>
           <div className="tab-content mt-3">
             <div className="tab-pane fade show active" id="active-listings">
-              <div className="card">
-                <img
-                  src="item-image-url"
-                  alt="Item"
-                  className="card-img-top"
-                />
+              {/* <div className="card"> */}
                 <div className="card-body">
-                  <h5 className="card-title">Item Name</h5>
-                  <p className="card-text">$99.99</p>
+                   <p>No active listings available</p>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
             <div className="tab-pane fade" id="transactions">
               <p>No transactions available.</p>
