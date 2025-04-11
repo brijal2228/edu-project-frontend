@@ -8,14 +8,14 @@ export default function Navbar() {
       style={{
         backgroundColor: 'white',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-        padding: '1rem 2rem',
+        // padding: '1rem 2rem',
       }}
     >
       <div className="container-fluid">
         <img
           src="logo eduexchange.jpg"
           alt="logo"
-          style={{ width: '120px', height: '60px', marginRight: '1rem' }}
+          style={{ width: '100px', height: '60px', marginRight: '1rem'}}
         />
 
         {/* Toggle Button for Mobile */}
@@ -86,7 +86,7 @@ export default function Navbar() {
                 onMouseEnter={(e) => ((e.target as HTMLAnchorElement).style.color = '#007bff')}
                 onMouseLeave={(e) => ((e.target as HTMLAnchorElement).style.color = '#343a40')}
               >
-                Register
+              Sign Up
               </a>
             </li>
           </ul>
