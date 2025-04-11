@@ -23,7 +23,7 @@ function Login() {
           <p className="mt-3 text-center fw-bold">Don't have an account? <a href="/" rel="now">Sign up now</a></p>
         </div>
         <div className="col-md-7 d-none d-md-flex image-side">
-          <img src="./6920933.jpg" alt="login" className="img-fluid w-100 h-100" style={{ objectFit: "cover" }}/>
+          <img src="./login photo.jpg" alt="login" className="img-fluid w-100 h-100" style={{ objectFit: "cover" }}/>
         </div>
 
       </div>

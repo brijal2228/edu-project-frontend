@@ -5,7 +5,7 @@ function Registration() {
     <div className="container-fluid vh-100 d-flex align-items-center">
       <div className="row w-100">
         <div className="col-md-7 d-none d-md-flex image-side">
-          <img src="./6920933.jpg" alt="registration" className="img-fluid w-100 h-100" style={{ objectFit: "cover" }} />
+          <img src="./login photo.jpg" alt="registration" className="img-fluid w-100 h-100" style={{ objectFit: "cover" }} />
         </div>
         <div className="col-md-5 d-flex container flex-column justify-content-center">
           <h2 className="heading">Sign Up</h2>

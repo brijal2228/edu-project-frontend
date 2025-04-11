@@ -97,7 +97,7 @@ body {
 }
 
 .feature-card:hover {
-  background-color: #98dff1;
+  background-color: #98d6f1;
   transform: translateY(-5px);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
@@ -125,6 +125,7 @@ body {
 .p-8{
   text-align: center;
 }
+
 .image-side {
   background-color: #f8f9fa;
   overflow: hidden;
@@ -168,6 +169,49 @@ h5 {
   width: 150px;
 }
 
+
+.image-side {
+  background-color: #f8f9fa;
+  overflow: hidden;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.heading {
+  color: black;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.heading::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}
+
+.container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h5 {
+  margin-bottom: 15px;
+}
+
+.table th {
+  width: 150px;
+}
 
 /* @media (max-width: 768px) {
   .image-side {

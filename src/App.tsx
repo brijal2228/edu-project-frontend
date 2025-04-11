@@ -25,8 +25,7 @@ const App: React.FC = () => {
       <Navbar /> 
       <div > 
         <RouterProvider router={router} />
-      
-      </div> 
+      </div>
     </>
   );
 };
