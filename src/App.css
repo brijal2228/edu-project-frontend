@@ -231,10 +231,21 @@ h5 {
   font-size: 0.875rem;
   color: #6c757d;
 } */
- .box{
-   border: 1px solid lightgrey;
-   padding: 5%;
+ .bx{
+   border: 1px solid whitesmoke;
+   border-radius: 15px;
+   background-color: whitesmoke;
+   text-align: center;
+   padding-top: 10px;
+   width: 24%  ;
  }
+.bx h6{
+  font-size: 25px;
+  font-weight: bold;
+}
+.bx p{
+  font-size: 15px;
+}
 
 /* Tabs Section */
 .content-tabs .nav-tabs .nav-link {

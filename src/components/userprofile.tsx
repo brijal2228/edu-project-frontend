@@ -17,20 +17,20 @@ const UserProfile = () => {
             <button className="btn btn-primary mr-2">Create New Listing</button>
             <button className="btn btn-secondary">Edit Profile</button>
           </div>
-          <div className="mt-3 box d-flex justify-content-between">
-            <div>
+          <div className="mt-3 d-flex justify-content-between">
+            <div className="bx">
               <h6>12</h6>
               <p>Active Listings</p>
             </div>
-            <div>
+            <div className="bx">
               <h6>48</h6>
               <p>Total Sales</p>
             </div>
-            <div>
+            <div className="bx">
               <h6>4.8</h6>
               <p>Rating</p>
             </div>
-            <div>
+            <div className="bx">
               <h6>156</h6>
               <p>Reviews</p>
             </div>
