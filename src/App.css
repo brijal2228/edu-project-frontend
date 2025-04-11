@@ -231,6 +231,10 @@ h5 {
   font-size: 0.875rem;
   color: #6c757d;
 } */
+ .box{
+   border: 1px solid lightgrey;
+   padding: 5%;
+ }
 
 /* Tabs Section */
 .content-tabs .nav-tabs .nav-link {

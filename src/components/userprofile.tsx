@@ -17,7 +17,7 @@ const UserProfile = () => {
             <button className="btn btn-primary mr-2">Create New Listing</button>
             <button className="btn btn-secondary">Edit Profile</button>
           </div>
-          <div className="mt-3 d-flex justify-content-between">
+          <div className="mt-3 box d-flex justify-content-between">
             <div>
               <h6>12</h6>
               <p>Active Listings</p>
