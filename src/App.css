@@ -244,3 +244,47 @@ h5 {
     font-size: 0.8rem; 
   }
 } */
+
+/* Container styling */
+.user-profile {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Profile Section */
+.profile-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid #6c757d;
+}
+ .bx{
+   border: 1px solid whitesmoke;
+   border-radius: 15px;
+   background-color: whitesmoke;
+   text-align: center;
+   padding-top: 10px;
+   width: 24%  ;
+ }
+.bx h6{
+  font-size: 25px;
+  font-weight: bold;
+}
+.bx p{
+  font-size: 15px;
+}
+
+/* Tabs Section */
+.content-tabs .nav-tabs .nav-link {
+  color: #6c757d;
+}
+
+.content-tabs .nav-tabs .nav-link.active {
+  color: #495057;
+  border-bottom: 2px solid #0d6efd;
+}
