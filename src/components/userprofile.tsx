@@ -7,10 +7,10 @@ const UserProfile = () => {
       <div className="card">
         <div className="card-body">
           <div className="d-flex align-items-center">
-            <img src="profile.jpg" alt="Profile" className="rounded-circle" width="50" height="50px"/>
+            <img src="profile.jpg" alt="Profile" width="50px" height="50px"/>
             <div className="ms-3">
-              <h5 className="card-title">Your Name</h5>
-              <p className="card-text">your-email@example.com</p>
+              <h5 className="card-title">Shaikh Afrin</h5>
+              <p className="card-text">afrin007@gmail.com</p>
             </div>
           </div>
           <div className="mt-3 d-flex justify-content-end">
